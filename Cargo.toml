@@ -84,3 +84,7 @@ required-features = ["main-windows-service"]
 [profile.release]
 lto = true
 codegen-units = 1
+strip = true
+opt-level = "z"
+debug = false
+split-debuginfo = "off"
